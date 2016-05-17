@@ -83,12 +83,6 @@ html, body {
 .mdl-demo .mdl-card__supporting-text + .mdl-card__actions {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
-.mdl-demo #add {
-  position: absolute;
-  right: 40px;
-  top: 36px;
-  z-index: 999;
-}
 .mdl-layout__content {
   flex-shrink: 0;
 }
@@ -102,7 +96,10 @@ html, body {
 .mdl-demo #features section.section--center {
   max-width: 620px;
 }
-.mdl-demo section > header{
+.mdl-layout__header-row .title {
+  padding-top: 50px;
+}
+.mdl-demo section > header {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
