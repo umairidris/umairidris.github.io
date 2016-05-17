@@ -45,6 +45,8 @@ section.section--center {
   max-width: 620px;
 }
 .mdl-layout__header-row .title {
+  color: inherit;
+  text-decoration: none;
   padding-top: 50px;
 }
 section > header {
