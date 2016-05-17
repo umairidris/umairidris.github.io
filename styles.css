@@ -89,7 +89,9 @@ html, body {
   top: 36px;
   z-index: 999;
 }
-
+.mdl-layout__content {
+  flex-shrink: 0;
+}
 .mdl-demo .mdl-layout__content section:not(:last-of-type) {
   position: relative;
   margin-bottom: 48px;
