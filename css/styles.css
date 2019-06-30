@@ -1,6 +1,7 @@
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
   margin: 40px auto;
+  width: 50%;
   max-width: 650px;
   line-height: 1.6;
   font-size: 18px;
